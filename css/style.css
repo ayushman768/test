@@ -1,0 +1,158 @@
+    /* IMPORTENT CSS */
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Libre Caslon Display', serif!important;
+    }
+    
+    .col-flex {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .text-position {
+        width: 100%;
+        display: inline-flex;
+    }
+    
+    .width-special {
+        width: 100%;
+    }
+    
+    .color-coffee {
+        color: rgb(206 176 113);
+        letter-spacing: 3px;
+        font-weight: 500;
+    }
+    /* IMPORTENT CSS */
+    /* BASIC CSS */
+    
+    .pad-10,
+    span {
+        padding: 10px!important;
+    }
+    
+    a {
+        font-size: 19px;
+        color: rgb(255 255 255)!important;
+        letter-spacing: 1px;
+        color: black!important;
+    }
+    
+    span {
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 700;
+        color: black;
+    }
+    /* NAV CSS */
+    
+    .logo-rigal-hotel {
+        position: relative;
+        margin: 0px -51px;
+    }
+    
+    .logo {
+        filter: brightness(0.3);
+        width: 93px;
+        position: absolute;
+    }
+    
+    .navigation>ul>li>a {
+        font-size: 18px;
+        font-weight: 600;
+        color: black!important;
+    }
+    /* NAV CSS End*/
+    /* section-start*/
+    
+    .layer {
+        background-color: rgb(0 0 0 / 63%);
+    }
+    
+    .bg-2 {
+        background-image: url(../img/hotel-regal-bus-stand-road-bilaspur-chhattisgarh-hotels-o26fx06.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: rgb(255 255 255);
+    }
+    
+    nav,
+    header,
+    .navigation,
+    .rigal-hotel-reservation,
+    .rigal-hotel-addphn {
+        z-index: 99999999;
+        color: white;
+    }
+    
+    .navigation {
+        border-bottom: 1px solid rgb(255 255 255);
+        border-width: thin;
+    }
+    
+    .Overview-Regal-Hotal {
+        padding-top: 150px;
+        padding-bottom: 76px;
+    }
+    
+    .Overview-Regal-Hotal>p,
+    .tag {
+        filter: drop-shadow(2px 4px 6px black);
+        letter-spacing: 5px!important;
+        font-size: 80px!important;
+    }
+    
+    .tag {
+        font-size: 50px!important;
+    }
+    
+    .explore {
+        border: 1px solid rgb(255 255 255);
+        padding: 12px 49px;
+        color: white!important;
+    }
+    
+    .btn-a {
+        padding-bottom: 94px;
+        padding-top: 80px;
+    }
+    /* .Overview-Regal-Hotal>p {
+padding-bottom: 64px;
+} */
+    
+    p {
+        font-size: 21px;
+        letter-spacing: 2px;
+    }
+    /* section-end */
+    
+    @media (max-width:1024px) {
+        .col-flex {
+            display: block;
+            flex-wrap: wrap;
+        }
+        .Overview-Regal-Hotal {
+            padding-top: 448px;
+            padding-bottom: 451px;
+        }
+        .Overview-Regal-Hotal>p {
+            filter: drop-shadow(2px 4px 6px black);
+            letter-spacing: 5px!important;
+            font-size: 146px!important;
+        }
+        .tag {
+            font-size: 88px!important;
+        }
+        a {
+            font-size: 62px;
+            color: rgb(255 255 255)!important;
+            letter-spacing: 14px;
+        }
+    }
